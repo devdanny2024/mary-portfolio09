@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import {
-  FaBars, FaHeartPulse, FaPlus, FaBandage, FaUsers,
-  FaHouseMedical, FaBedPulse, FaHandHoldingHeart, FaPills,
-  FaInstagram, FaWhatsapp, FaLinkedin, FaStar, FaCircleUser, FaFacebook
+  FaBars, FaHeart, FaPlus, FaUserFriends,
+  FaHandHoldingHeart, FaPills,
+  FaInstagram, FaLinkedin, FaFirstAid,FaStar, FaCircle, FaFacebook
 } from 'react-icons/fa';
+import { MdElderly } from "react-icons/md";
 import React from 'react';
 
 // Header Component
@@ -44,7 +45,7 @@ const Hero = () => {
             <Image src="/images/Mary.jpg" alt="Fakehinde Mary Olaitan" width={320} height={320} className="w-full h-full object-cover" />
           </div>
           <div className="absolute top-10 -left-2 md:-left-5 bg-white/30 p-3 rounded-lg backdrop-blur-sm animate-pulse">
-            <span className="text-white text-2xl"><FaHeartPulse /></span>
+            <span className="text-white text-2xl"><FaHeart /></span>
           </div>
           <div className="absolute bottom-10 -right-2 md:-right-5 bg-white/30 p-4 rounded-full backdrop-blur-sm animate-pulse">
             <span className="text-white text-3xl"><FaPlus /></span>
@@ -64,12 +65,12 @@ interface ServiceCardProps {
 
 const servicesData: ServiceCardProps[] = [
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaUsers /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaUserFriends /></span>,
     title: 'Personal Care',
     description: 'Dignified assistance with bathing, grooming, and dressing.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaHeartPulse /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaHeart /></span>,
     title: 'Vital Sign Monitoring',
     description: 'Regular and accurate monitoring of key health indicators.',
   },
@@ -79,7 +80,7 @@ const servicesData: ServiceCardProps[] = [
     description: 'Timely medication reminders and management to ensure adherence.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaBedPulse /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><MdElderly  /></span>,
     title: 'Mobility Assistance',
     description: 'Support with movement and transfers to enhance safety and independence.',
   },
@@ -89,7 +90,7 @@ const servicesData: ServiceCardProps[] = [
     description: 'Building genuine connections and providing a friendly, listening ear.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaBandage /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaFirstAid  /></span>,
     title: 'Basic Life Support (CPR, First Aid)',
     description: 'Certified in BLS to respond effectively in emergency situations.',
   },
@@ -190,7 +191,7 @@ const Testimonials = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <div className="w-16 h-16 rounded-full flex items-center justify-center bg-gray-100 text-gray-400">
-                <span className="text-5xl"><FaCircleUser /></span>
+                <span className="text-5xl"><FaCircle  /></span>
               </div>
               <div className="ml-4">
                 <h4 className="font-bold text-lg">The Yusuf Family</h4>
@@ -202,7 +203,7 @@ const Testimonials = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
                <div className="w-16 h-16 rounded-full flex items-center justify-center bg-gray-100 text-gray-400">
-                <span className="text-5xl"><FaCircleUser /></span>
+                <span className="text-5xl"><FaCircle  /></span>
               </div>
               <div className="ml-4">
                 <h4 className="font-bold text-lg">Anonymous Client</h4>
