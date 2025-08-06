@@ -208,7 +208,7 @@ const Testimonials = () => {
                 <span className="text-5xl"><FaCircle /></span>
               </div>
               <div className="ml-4">
-                <h4 className="font-bold text-lg">Anonymous Client</h4>
+                <h4 className="font-bold text-lg">Daniel Bamidele</h4>
                 <div className="text-yellow-400 flex items-center"><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /></div>
               </div>
             </div>
