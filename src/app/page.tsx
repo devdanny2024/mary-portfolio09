@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import {
-  FaBars, FaHeart, FaPlus, FaUserFriends,
+  FaBars, FaHeart, FaPlus, FaUserGroup,
   FaHandHoldingHeart, FaPills,
-  FaInstagram, FaLinkedin, FaFirstAid,FaStar, FaCircle, FaFacebook
-} from 'react-icons/fa';
+  FaInstagram, FaLinkedin, FaBandage ,FaStar, FaCircle, FaFacebook
+} from 'react-icons/fa6';
 import { MdElderly } from "react-icons/md";
 import React from 'react';
 
@@ -65,7 +65,7 @@ interface ServiceCardProps {
 
 const servicesData: ServiceCardProps[] = [
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaUserFriends /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaUserGroup /></span>,
     title: 'Personal Care',
     description: 'Dignified assistance with bathing, grooming, and dressing.',
   },
@@ -90,7 +90,7 @@ const servicesData: ServiceCardProps[] = [
     description: 'Building genuine connections and providing a friendly, listening ear.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaFirstAid  /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaBandage   /></span>,
     title: 'Basic Life Support (CPR, First Aid)',
     description: 'Certified in BLS to respond effectively in emergency situations.',
   },
