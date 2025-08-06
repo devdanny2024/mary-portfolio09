@@ -23,7 +23,7 @@ const Header = () => {
           <a href="#about" className="text-gray-600 hover:main-text transition-colors">About</a>
           <a href="#testimonials" className="text-gray-600 hover:main-text transition-colors">Testimonials</a>
         </div>
-        <a href="mailto:fakehindemaryolaitan@gmail.com" className="hidden md:block btn-primary px-6 py-2 rounded-full font-semibold">Contact Us</a>
+        <a href="https://wa.me/2349010472932" className="hidden md:block btn-primary px-6 py-2 rounded-full font-semibold">Contact Us</a>
         <button className="md:hidden text-2xl main-text">
           <FaBars />
         </button>
@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4">Expert, Personalized Nursing Care to Help You Thrive</h1>
           <p className="text-lg mb-8 text-gray-200">Olaitan Care Services provides expert, personalized nursing care that empowers individuals to thrive, offering flexible solutions in the comfort of their own homes and through global opportunities.</p>
-          <a href="mailto:fakehindemaryolaitan@gmail.com" className="bg-white main-text px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors inline-block">Book a Consultation</a>
+          <a href="https://wa.me/2349010472932" target="_blank" rel="noopener noreferrer" className="bg-white main-text px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors inline-block">Book a Consultation</a>
         </div>
         <div className="relative flex justify-center mt-10 md:mt-0">
           <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-8 border-white/50 shadow-2xl">
@@ -82,7 +82,7 @@ const servicesData: ServiceCardProps[] = [
     description: 'Timely medication reminders and management to ensure adherence.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><MdElderly  /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><MdElderly /></span>,
     title: 'Mobility Assistance',
     description: 'Support with movement and transfers to enhance safety and independence.',
   },
@@ -92,7 +92,7 @@ const servicesData: ServiceCardProps[] = [
     description: 'Building genuine connections and providing a friendly, listening ear.',
   },
   {
-    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaBandage   /></span>,
+    icon: <span className="text-4xl main-text mb-4 mx-auto inline-block"><FaBandage /></span>,
     title: 'Basic Life Support (CPR, First Aid)',
     description: 'Certified in BLS to respond effectively in emergency situations.',
   },
@@ -127,9 +127,9 @@ const MeetTheNurse = () => {
       <div className="container mx-auto px-6 text-center">
         <p className="main-text font-semibold">MEET YOUR CAREGIVER</p>
         <h2 className="text-4xl font-bold section-title mt-2">Fakehinde Mary Olaitan</h2>
-        <p className="text-lg section-subtitle mt-2 max-w-3xl mx-auto">A dedicated and compassionate healthcare assistant with one year of experience providing personalized, one-on-one care that prioritizes your needs, schedule, and comfort.</p>
+        <p className="text-lg section-subtitle mt-2 max-w-3xl mx-auto">A dedicated and compassionate healthcare assistant with one year to assistant with experience providing personalized, one-on-one care that prioritizes your needs, schedule, and comfort.</p>
         <div className="flex justify-center mt-8">
-          <Image src="/images/Mary.jpg" alt="Nurse Mary Olaitan" width={160} height={160} className="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-white" />
+          <Image src="/images/mary2.jpg" alt="Nurse Mary Olaitan" width={160} height={160} className="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-white" />
         </div>
         <div className="mt-8 max-w-3xl mx-auto text-left bg-gray-50 p-6 rounded-lg">
             <h3 className="text-2xl font-bold section-title mb-4 text-center">My Story: The Power of Connection</h3>
@@ -174,7 +174,7 @@ const CTA = () => {
       <div className="container mx-auto px-6 py-16 text-center text-white">
           <h2 className="text-4xl font-bold leading-tight">Ready for Compassionate, Personalized Care?</h2>
           <p className="text-lg mt-4 mb-8 max-w-2xl mx-auto">Let's discuss how Olaitan Care Services can support you or your loved ones. I offer flexible short-term, long-term, and even international travel assignments to meet your unique needs.</p>
-          <a href="mailto:fakehindemaryolaitan@gmail.com" className="bg-white main-text px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors inline-block">Book a Free Consultation</a>
+          <a href="https://wa.me/2349010472932" target="_blank" rel="noopener noreferrer" className="bg-white main-text px-8 py-3 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors inline-block">Book a Free Consultation</a>
       </div>
     </section>
   );
@@ -193,7 +193,7 @@ const Testimonials = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
               <div className="w-16 h-16 rounded-full flex items-center justify-center bg-gray-100 text-gray-400">
-                <span className="text-5xl"><FaCircle  /></span>
+                <span className="text-5xl"><FaCircle /></span>
               </div>
               <div className="ml-4">
                 <h4 className="font-bold text-lg">The Yusuf Family</h4>
@@ -205,7 +205,7 @@ const Testimonials = () => {
           <div className="bg-white p-8 rounded-lg shadow-md">
             <div className="flex items-center mb-4">
                <div className="w-16 h-16 rounded-full flex items-center justify-center bg-gray-100 text-gray-400">
-                <span className="text-5xl"><FaCircle  /></span>
+                <span className="text-5xl"><FaCircle /></span>
               </div>
               <div className="ml-4">
                 <h4 className="font-bold text-lg">Anonymous Client</h4>
@@ -244,7 +244,7 @@ const Footer = () => {
             <a href="mailto:fakehindemaryolaitan@gmail.com" className="hover:text-white">fakehindemaryolaitan@gmail.com</a>
           </p>
           <p className="text-gray-300">
-             <a href="https://wa.me/2347034979753" target="_blank" rel="noopener noreferrer" className="hover:text-white">WhatsApp: +234 703 497 9753</a>
+             <a href="https://wa.me/2349010472932" target="_blank" rel="noopener noreferrer" className="hover:text-white">WhatsApp: +234 901 047 2932</a>
           </p>
            <p className="text-gray-300">Lagos, Ogun State, Abuja</p>
         </div>
