@@ -3,7 +3,7 @@ import {
   FaBars, FaHeartPulse, FaPlus, FaBandage, FaUsers,
   FaHouseMedical, FaBedPulse, FaHandHoldingHeart, FaPills,
   FaInstagram, FaWhatsapp, FaLinkedin, FaStar, FaCircleUser, FaFacebook
-} from 'react-icons/fa6';
+} from 'react-icons/fa';
 import React from 'react';
 
 // Header Component
